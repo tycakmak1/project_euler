@@ -1,9 +1,9 @@
 format:
-	clang-format -i -style=file **/*.cpp **/*.h
+	clang-format -i -style=file **/*.cpp
 
 cleanup:
 	rm -f **/*.o **/*.s **/out
-	clang-format -i -style=file **/*.cpp **/*.h
+	clang-format -i -style=file **/*.cpp
 
 push:
 	clang-format -i -style=file **/*.cpp
