@@ -9,7 +9,7 @@ FiftyDigitNumber.o: FiftyDigitNumber.h FiftyDigitNumber.cpp
 
 cleanup:
 	rm *.o out *.s
-	
+
 assem:
 	g++ -std=c++17 -Wpedantic -S *.cpp
 
