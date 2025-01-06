@@ -20,7 +20,7 @@ int main() {
     for (uint8_t i = 1U; i <= 100U; i++) {
         sumOfSquares += i * i;
     }
-    squareOfSum =  50U * 101U;
+    squareOfSum = 50U * 101U;
     squareOfSum *= squareOfSum;
-    std::cout << squareOfSum - sumOfSquares << '\n';
+    std::cout << "Difference = " << squareOfSum - sumOfSquares << '\n';
 }

@@ -7,8 +7,8 @@
 #include <iostream>
 
 bool isPrime(uint64_t const& num) {
-    for(uint64_t i = 2U; i * i <= num; i++) {
-        if(num % i == 0U) {
+    for (uint64_t i = 2U; i * i <= num; i++) {
+        if (num % i == 0U) {
             return false;
         }
     }
@@ -17,11 +17,11 @@ bool isPrime(uint64_t const& num) {
 
 int main() {
     uint64_t sum{2U};
-    for(uint64_t i = 3U; i < 2'000'000U; i++) {
-        if(isPrime(i)) {
+    for (uint64_t i = 3U; i < 2'000'000U; i++) {
+        if (isPrime(i)) {
             sum += i;
         }
     }
-    std::cout << sum << '\n';
+    std::cout << "Sum of all primes below 2 million = " << sum << '\n';
     return 0;
 }

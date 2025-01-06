@@ -15,6 +15,6 @@ int main() {
             sum += i;
         }
     }
-    std::cout << sum << '\n';
+    std::cout << "Sum = " << sum << '\n';
     return 0;
 }

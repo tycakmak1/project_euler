@@ -96,6 +96,6 @@ int main() {
         }
     }
 
-    std::cout << maxProduct << '\n';
+    std::cout << "Max product = " << maxProduct << '\n';
     return 0;
 }

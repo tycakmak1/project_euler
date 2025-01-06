@@ -16,6 +16,6 @@ int main() {
             largest_prime = i;
         }
     }
-    std::cout << largest_prime << '\n';
+    std::cout << "Largest prime factor of 600851475143 = " << largest_prime << '\n';
     return 0;
 }

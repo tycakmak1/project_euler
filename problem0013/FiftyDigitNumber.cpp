@@ -41,7 +41,7 @@ FiftyDigitNumber& FiftyDigitNumber::operator+=(FiftyDigitNumber const& other) {
 
 void FiftyDigitNumber::printFirstTenDigits() {
     for (uint8_t idx{}; idx < 11U; idx++) {
-        std::cout << static_cast<uint16_t>(_digits.at(idx)) << ' ';
+        std::cout << static_cast<uint16_t>(_digits.at(idx));
     }
     std::cout << '\n';
 }

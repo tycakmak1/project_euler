@@ -21,11 +21,11 @@ uint64_t lcm(uint64_t a, uint32_t b) { return a * b / gcd(a, b); }
 int main() {
     std::cout << "GCD(19, 20) = " << gcd(19, 20) << '\n';
     std::cout << "LCM(19, 20) = " << lcm(19, 20) << '\n';
-    uint64_t step{2U};
+    uint64_t commonMultiple{2U};
     for (uint8_t i = 20U; i >= 3U; i--) {
-        step = lcm(step, i);
-        std::cout << step << '\n';
+        commonMultiple = lcm(commonMultiple, i);
+        std::cout << commonMultiple << '\n';
     }
-    std::cout << step << '\n';
+    std::cout << "LCM(1, 2, ..., 19, 20) = " << commonMultiple << '\n';
     return 0;
 }

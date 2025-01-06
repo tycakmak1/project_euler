@@ -62,7 +62,7 @@ int main() {
         }
         product = 1U;
     }
-    std::cout << maxProduct << '\n';
+    std::cout << "Maximum product = " << maxProduct << '\n';
 
     return 0;
 }

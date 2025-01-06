@@ -33,7 +33,7 @@ uint32_t collatzSequence(uint64_t const& number, uint32_t& length) {
 
 int main() {
     uint32_t length{1U}, maxLength{0U}, maxNumber{0U};
-    for(uint32_t i{1'000'000}; i > 2U; i--){
+    for (uint32_t i{1'000'000}; i > 2U; i--) {
         collatzSequence(i, length);
         if (length > maxLength) {
             maxNumber = i;
@@ -41,6 +41,6 @@ int main() {
         }
         length = 0U;
     }
-    std::cout << "maxNumber = " << maxNumber << " maxLength = " << maxLength << '\n';
+    std::cout << "Maximum number = " << maxNumber << ", it's chain length = " << maxLength << '\n';
     return 0;
 }

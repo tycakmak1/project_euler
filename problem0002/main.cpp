@@ -18,6 +18,6 @@ int main() {
             sum += fib2;
         }
     }
-    std::cout << sum << '\n';
+    std::cout << "Sum of the even valued terms = " << sum << '\n';
     return 0;
 }

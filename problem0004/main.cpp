@@ -28,7 +28,7 @@ int main() {
             }
         }
     }
-    std::cout << "max_palindrome = " << max_palindrome << '\n';
+    std::cout << "Biggest palindrome = " << max_palindrome << '\n';
 
     return 0;
 }
